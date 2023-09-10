@@ -109,7 +109,6 @@ main section:first-child > img {
   margin: 3.6rem 0 2.4rem;
 
   max-width: 842px;
-  height: 561px;
 }
 
 main section:first-child h1 {
@@ -266,6 +265,10 @@ footer form input {
     width: 100%;
   }
 
+  header {
+    background-color: red;
+  }
+
   header nav {
     display: flex;
     justify-content: center;
@@ -294,6 +297,10 @@ footer form input {
   #container {
     width: 100%;
     max-width: 1440px;
+  }
+
+  header {
+    background-color: blue;
   }
 
   header,
