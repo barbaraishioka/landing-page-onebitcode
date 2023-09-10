@@ -263,10 +263,7 @@ footer form input {
 @media only screen and (min-width: 768px) {
   #container {
     width: 100%;
-  }
-
-  header {
-    background-color: red;
+    max-width: 768px;
   }
 
   header nav {
@@ -293,14 +290,10 @@ footer form input {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   #container {
     width: 100%;
-    max-width: 1440px;
-  }
-
-  header {
-    background-color: blue;
+    max-width: 1200px;
   }
 
   header,
